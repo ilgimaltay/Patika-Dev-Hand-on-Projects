@@ -2,6 +2,10 @@ import java.util.Scanner;
 public class GradeCalculator {
     public static void main(String[]args){
 
+        /* Not Ortalamasi Hesaplama Programi 
+Aynı program içerisinde koşullu ifadeler kullanılarak, eğer kullanıcının ortalaması 60'dan büyük ise ekrana "Sınıfı Geçti" , küçük ise "Sınıfta Kaldı" yazsın */
+
+
         //Degiskenler tanimlandi
 int matematik,fizik,kimya,turkce,tarih,muzik;
 
