@@ -32,7 +32,6 @@ System.out.print("Muzik notunuzu giriniz: ");
 muzik = degisken.nextInt();
 
 int toplam = matematik + kimya + fizik + turkce + tarih + muzik;
-
 double ortalama =  toplam / 6;
 
 System.out.println("Ortalamaniz :" +ortalama);
@@ -41,5 +40,6 @@ String sonuc = (ortalama > 60) ? "Gectiniz" : "Kaldiniz";
 
 System.out.println(sonuc);
 
+degisken.close();
     }
 }

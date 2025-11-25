@@ -21,5 +21,6 @@ System.out.println("Kdv Orani: " + kdvOrani);
 System.out.println("Kdv Tutari: " + kdvTutar);
 System.out.println("Kdv'li Tutar: " + kdvliTutar);
 
+para.close();
     }
 }
