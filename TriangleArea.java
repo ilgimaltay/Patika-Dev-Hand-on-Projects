@@ -10,17 +10,18 @@ public class TriangleArea {
         𝑢 = (a+b+c) / 2
         Alan * Alan = 𝑢 * (𝑢 − 𝑎)* (𝑢 − 𝑏) * (𝑢 − 𝑐) */
 
-double a , b , c , u , alan;
+int a , b , c , u;
+double alan;
 
 Scanner input = new Scanner(System.in);
 System.out.print("a sayisi: ");
-a = input.nextDouble();
+a = input.nextInt();
 
 System.out.print("b sayisi: ");
-b = input.nextDouble();
+b = input.nextInt();
 
 System.out.print("c sayisi: ");
-c = input.nextDouble();
+c = input.nextInt();
 u = ( a+b+c ) / 2;
 
 alan = Math.sqrt(u * (u - a)* (u - b) * (u - c));
