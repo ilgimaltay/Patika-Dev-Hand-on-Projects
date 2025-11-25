@@ -15,6 +15,7 @@ double a , b , c , u , alan;
 Scanner input = new Scanner(System.in);
 System.out.print("a sayisi: ");
 a = input.nextDouble();
+
 System.out.print("b sayisi: ");
 b = input.nextDouble();
 
