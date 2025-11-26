@@ -19,7 +19,7 @@ Taksimetre açılış ücreti 10 TL'dir. */
 
         perKm = 2.20;
         startingPrice = 10;
-        totalCost = perKm * km + 10;
+        totalCost = perKm * km + startingPrice;
       
         finalCost = totalCost < 20 ? 20 : totalCost;
         System.out.println("Toplam tutar: "+finalCost);
