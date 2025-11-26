@@ -1,11 +1,30 @@
 import java.util.Scanner;
 
 public class CircleArea {
-    /*Yarıçapı r, merkez açısının ölçüsü 𝛼 olan daire diliminin alanı bulan programı yazınız.
-    𝜋 sayısını = 3.14 alınız.
-    Formül : (𝜋 * (r*r) * 𝛼) / 360 */
+    public static void main(String[] args) {
+     
+    Scanner input = new Scanner(System.in);
+
+    System.out.print("Yaricap giriniz: ");
+        int r = input.nextInt();
+
+        double pi = 3.14;
+        double alan = pi * r * r;
+        System.out.println("Dairenin alani: " +alan);
+
+        double cevre = 2 * pi * r;
+        System.out.println("Dairenin cevresi: "+cevre);
+
+    /* Formül : (𝜋 * (r*r) * 𝛼) / 360 */
+
+    System.out.print("Alfa degerini giriniz: ");
+    double alfa = input.nextDouble();
+
+    double sector = (pi * (r*r) * alfa) / 360;
+    System.out.println("Alfa acisinin alani: " +sector);
 
 
+    input.close();
 
-    
+    }
 }
