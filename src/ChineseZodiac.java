@@ -18,6 +18,7 @@ public class ChineseZodiac {
         // Deger 0 dan buyuk olsun
         if (year <= 0 ){
             System.out.println("Gecersiz yil girdiniz.");
+                    input.close();
         return;
         } 
 
